@@ -8,6 +8,15 @@
 </head>
 <body>
     <nav>
+        <div class="upper-nav">
+            <ul class="top">
+                <li class="fb"><img  id="fb" src="assets/fb (1).png" alt="facebook icon"/></li>
+                <li class="twitter"><img id="twitter" src="assets/twitter.png" alt="twitter icon"></li>
+                <li class="pa"><p>English</p></li>
+                <li class="pa"><p>MyPage</p></li>
+                <li class="pa"><p>Logout</p></li>
+            </ul>
+        </div>
         <div class="hamburger">
             <ul>
             <li class="bar"></li>
@@ -15,9 +24,11 @@
             <li class="bar"></li>
         </ul>
         </div>
-        <ul class="nav-menu" >
-            <li class="nav-item">
-              <a class="nav-link"  href="index.html">Home</a>
+        <div  class="flex" >
+            <a  class="flex logo" href="index.html"><img  id="logo"  src="assets/Earth.png"/></a>
+            <ul class="flex nav-menu">
+              <li class="nav-item">
+              <a class="nav-link" id="nav1"  href="index.html">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Program</a>
@@ -30,8 +41,12 @@
               </li>
             <li class="nav-item">
               <a class="nav-link"  href="#">News</a>
-            </li>          
+            </li>         
+            <li class="nav-item GE">
+                <a class="nav-link" id="ge" href="#">Campaign</a>
+              </li>    
           </ul>
+          </div>
     </nav>
    <!--Header-->
    <header>
@@ -51,8 +66,8 @@
 <section class="past-summit">
     <h3 class="summit">Green Earth Global Summit 2020</h3>
     <hr class="hrabout">
-    <p class="majisafiP">The project "Maji Safi" meaning "clean water" was initiated to help families in Africa and we received a lot of fundings from donors. </p>
-    <img class="majisafi" src="assets/water.jpg" alt="maji safi"/>
+    <p class="majisafiP">The logo of Green Earth organisation was changed as of 21st July, 2020. We thank everyone who took part in voting for the logo below.</p>
+    <img class="majisafi" src="assets/Earth.png" alt="logo"/>
 </section>
 
 <!-- Past pictures -->
@@ -60,8 +75,8 @@
     <h4 class="pastp">See the past G.E Global summit </h4>
     <hr class="hrabout">
     <p class="pag"> Take a look at the past two G.E global summit which took place<br>in Buenos Aires and Warsaw.</p>
-    <div class="group-photo">
-        <ul>
+    <div >
+        <ul class="group-photo">
         <li class="image_wrapper">
              <img class="grp" src="assets/group1.jpg" alt="group photo"/>
             <div class="overlay overlay_2">

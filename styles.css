@@ -129,7 +129,7 @@ header {
 }
 
 .hr {
-  width: 17%;
+  width: 5%;
   border: 1px solid #ec5242;
   margin-left: auto;
   margin-right: auto;
@@ -294,7 +294,7 @@ img {
 footer {
   background-color: #fff;
   padding: 15px 60px;
-  gap: 50px;
+  justify-content: space-around;
   display: flex;
   flex-direction: row;
 }
@@ -379,7 +379,7 @@ footer {
 }
 
 .majisafi {
-  width: 100%;
+  width: 20%;
   height: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -432,7 +432,6 @@ footer {
 
 .overlay_2 {
   inset: 0;
-  padding: 37px;
 }
 
 .img-title {
@@ -445,4 +444,211 @@ footer {
 .p {
   color: #fff;
   font-size: 15px;
+}
+
+.upper-nav {
+  display: none;
+}
+
+.heading31 {
+  display: none;
+}
+
+.hrprog {
+  display: none;
+}
+
+.flex .logo {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .hamburger {
+    display: none;
+  }
+
+  .navbar {
+    display: flex;
+    margin-left: 5%;
+    width: 100%;
+  }
+
+  .nav-menu {
+    position: inherit;
+    margin-left: 34%;
+    padding-right: 0;
+    flex-direction: row;
+    backdrop-filter: blur(0);
+    padding-top: 20px;
+    background-color: transparent;
+    text-align: center;
+    transition: 0.3s;
+    width: 63%;
+    gap: 35px;
+    color: #344563;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-link {
+    display: flex;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    transition: 0.7s ease;
+  }
+
+  #nav1 {
+    color: #ec5242;
+  }
+
+  .nav-item {
+    padding-left: 0;
+    margin-right: 0;
+  }
+
+  .upper-nav {
+    display: block;
+    background-color: #383839;
+  }
+
+  .top {
+    display: flex;
+    gap: 17px;
+    justify-content: flex-end;
+    padding: 5px;
+    margin-right: 80px;
+  }
+
+  .pa {
+    color: white;
+    font-size: 12px;
+  }
+
+  #fb {
+    width: 16px;
+    height: 16px;
+  }
+
+  #twitter {
+    width: 16px;
+    height: 16px;
+  }
+
+  .GE {
+    padding-left: 0;
+    height: 25px;
+    margin-left: 30px;
+    color: #ec5242;
+    border: 3px solid #ec5242;
+  }
+
+  #ge {
+    color: #ec5242;
+    font-weight: 900;
+    padding: 0 15px;
+  }
+
+  #logo {
+    width: 40px;
+    margin-left: 24px;
+    margin-top: 11px;
+    height: 40px;
+  }
+
+  .flex {
+    display: flex;
+  }
+
+  .flex .logo {
+    display: flex;
+    width: 61px;
+  }
+
+  header {
+    width: 51%;
+  }
+
+  .grid-item2 {
+    display: none;
+  }
+
+  .grid-section {
+    grid-template-columns: auto auto auto auto auto;
+    column-gap: 5px;
+    margin-top: 5%;
+  }
+
+  .item1 {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .main-program {
+    padding-bottom: 8%;
+  }
+
+  .heading31 {
+    padding-top: 15px;
+    color: #ffff;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+  }
+
+  .hrprog {
+    display: block;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+  }
+
+  .more-professors-btn {
+    display: none;
+  }
+
+  .professor-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 10%;
+  }
+
+  .partner-icons-list {
+    flex-direction: row;
+    gap: 47px;
+  }
+
+  .footer {
+    padding: 15px 200px;
+  }
+
+  #br {
+    display: none;
+  }
+
+  .group-photo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .overlay_2 {
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 43px;
+  }
+
+  .grp {
+    width: 94%;
+    height: 90%;
+  }
 }

@@ -65,7 +65,7 @@ const professorsArray = [
 
 const professors = document.getElementById('professor-cards');
 
-const professorsDisplay = (name, summary, studies, imgSrc) => `<div class="professor">
+const professorsDisplay = (name, summary, studies, imgSrc) => `<div class=" professor">
 <div class="img-container">
     <img src="${imgSrc}" alt="professor">
 </div>

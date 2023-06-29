@@ -7,7 +7,16 @@
     <title>Green Earth Summit</title>
 </head>
 <body>
-    <nav>
+    <navbar>
+        <div class="upper-nav">
+            <ul class="top">
+                <li class="fb"><img  id="fb" src="assets/fb (1).png" alt="facebook icon"/></li>
+                <li class="twitter"><img id="twitter" src="assets/twitter.png" alt="twitter icon"></li>
+                <li class="pa"><p>English</p></li>
+                <li class="pa"><p>MyPage</p></li>
+                <li class="pa"><p>Logout</p></li>
+            </ul>
+        </div>
         <div class="hamburger">
             <ul>
             <li class="bar"></li>
@@ -15,9 +24,11 @@
             <li class="bar"></li>
         </ul>
         </div>
-        <ul class="nav-menu" >
-            <li class="nav-item">
-              <a class="nav-link"  href="about.html">About</a>
+        <div  class="flex" >
+            <a  class="flex logo" href="index.html"><img  id="logo"  src="assets/Earth.png"/></a>
+            <ul class="flex nav-menu">
+              <li class="nav-item">
+              <a class="nav-link" id="nav1"  href="about.html">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Program</a>
@@ -30,9 +41,13 @@
               </li>
             <li class="nav-item">
               <a class="nav-link"  href="#">News</a>
-            </li>          
+            </li>         
+            <li class="nav-item GE">
+                <a class="nav-link" id="ge" href="#">Campaign</a>
+              </li>    
           </ul>
-    </nav>
+          </div>
+    </navbar>
    <!--Header-->
    <header>
     <h1 class="heading1">"Hello!Sharing world"</h1>
@@ -84,15 +99,17 @@
             </div>
         </div>
         <div class="grid-item2">
-            <p class="join-p">Join Green Earth Global Summit</p>
+            <h3 class="join-p">Join Green Earth Global Summit</h3>
         </div>
 
     </div>
+    <h3 class="heading31">SEE THE WHOLE PROGRAM</h3>
+    <hr class="hrprog">
    </section>
 
    <!-- Featured speakers -->
    <section class="Featured">
-  <h4 class="speakers">Featured Professors</h4>
+  <h4 class="speakers">Featured Speakers</h4>
   <hr class="hr">
   <div class="professor-cards" id="professor-cards">
     <!-- generated when index.js loads -->
@@ -120,9 +137,12 @@
   </section>
   <!-- footer -->
   <footer class="footer">
-    <div class="footer-logo-container"><img  class="footer-logo" src="assets/Earth.png" alt="logo"/></div>
+    <div class="footer-logo-container">
+        <img  class="footer-logo" src="assets/Earth.png" alt="logo"/>
+    </div>
     <div>
-    <p class="copyright">2023 Green Earth Global. <br> Some Rights Reserved.</p></div> 
+    <p class="copyright">2023 Green Earth Global. <br id="br"> Some Rights Reserved.</p>
+    </div> 
   </footer>
     <script src="index.js"></script>
 </body>
