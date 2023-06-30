@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Green Earth Summit</title>
+</head>
+<body>
+    <navbar>
+        <div class="upper-nav">
+            <ul class="top">
+                <li class="fb"><img  id="fb" src="assets/fb (1).png" alt="facebook icon"/></li>
+                <li class="twitter"><img id="twitter" src="assets/twitter.png" alt="twitter icon"></li>
+                <li class="pa"><p>English</p></li>
+                <li class="pa"><p>MyPage</p></li>
+                <li class="pa"><p>Logout</p></li>
+            </ul>
+        </div>
+        <div class="hamburger">
+            <ul>
+            <li class="bar"></li>
+            <li class="bar"></li>
+            <li class="bar"></li>
+        </ul>
+        </div>
+        <div  class="flex" >
+            <a  class="flex logo" href="index.html"><img  id="logo"  src="assets/Earth.png"/></a>
+            <ul class="flex nav-menu">
+              <li class="nav-item">
+              <a class="nav-link" id="nav1"  href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Program</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Join</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sponsor</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link"  href="#">News</a>
+            </li>         
+            <li class="nav-item GE">
+                <a class="nav-link" id="ge" href="#">Campaign</a>
+              </li>    
+          </ul>
+          </div>
+    </navbar>
+   <!--Header-->
+   <header>
+    <h1 class="heading1">"Hello!Sharing world"</h1>
+    <h2 class="heading2">Green Earth Global Summit 2023</h2>
+    <p  class="parag">Welcome to our global annual summit that will be held virtually for ease of accessibility at your comfort.
+        For those who want to attend in person, it will be held at Uhuru Park, Nairobi,Kenya. </p>
+    <!-- Today's date -->
+    <h3 class="date"></h3>
+   </header>
+
+   <!-- Main program section -->
+   <section class="main-program">
+    <h3 class="heading3">Main Program</h3>
+    <hr class="hr">
+    <div class="grid-section">
+        <div class="grid-item">
+            <div class="item1">
+                <img src="assets/save-water.png" alt="save-water"/>
+                <p class="first-p">Water</p>
+                <p class="second-p">We will discuss the benefits of avoiding water wastage.</p>
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="item1">
+                <img src="assets/energy.png" alt="clean-energy"/>
+                <p class="first-p">Energy</p>
+                <p class="second-p">Exploration of energies that do not pollute environment such as biogas.</p>
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="item1">
+                <img src="assets/plant.png" alt="conserve plants"/>
+                <p class="first-p">Forest</p>
+                <p class="second-p">Planting trees is very important in conservation of animal habitat and others that will be discussed.</p>
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="item1">
+                <img src="assets/light.png" alt="Knowledge"/>
+                <p class="first-p">Knowledge</p>
+                <p class="second-p">Importance of teaching our young ones the benefit of conserving environment.</p>
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="item1">
+                <img src="assets/recycle.png" alt="Recycle"/>
+                <p class="first-p">Recycle</p>
+                <p class="second-p">Plastic waste contribute to a huge percent of sea animals suffocation.</p>
+            </div>
+        </div>
+        <div class="grid-item2">
+            <h3 class="join-p">Join Green Earth Global Summit</h3>
+        </div>
+
+    </div>
+    <h3 class="heading31">SEE THE WHOLE PROGRAM</h3>
+    <hr class="hrprog">
+   </section>
+
+   <!-- Featured speakers -->
+   <section class="Featured">
+  <h4 class="speakers">Featured Speakers</h4>
+  <hr class="hr">
+  <div class="professor-cards" id="professor-cards">
+    <!-- generated when index.js loads -->
+  </div>
+  <button type="button" class="more-professors-btn" id="more-professors-btn">More<img src="assets/arrow_down.png" id="more" alt="more"/>
+  </button>
+   </section>
+
+   <!-- partners -->
+  <section class="partners">
+    <h5 class="partners-heading">Partner</h5>
+    <span class="hr"></span>
+    <ul class="partner-icons-list">
+      <ul class="partner-icons">
+        <li><img class="partner-logo" src="assets/mozilla.png" alt="mozilla"/></li>
+        <li><img class="partner-logo" src="assets/googlekorea.png" alt="google"/></li>
+        <li><img class="partner-logo" src="assets/naver.png" alt="naver"/></li>
+     
+      </ul>
+      <ul class="partner-icons">
+        <li><img class="partner-logo" src="assets/daumkakaologo.png" alt="kakao"/></li>
+        <li><img class="partner-logo" src="assets/airbnb.png" alt="airbnb"/></li>
+      </ul>
+    </ul>
+  </section>
+  <!-- footer -->
+  <footer class="footer">
+    <div class="footer-logo-container">
+        <img  class="footer-logo" src="assets/Earth.png" alt="logo"/>
+    </div>
+    <div>
+    <p class="copyright">2023 Green Earth Global. <br id="br"> Some Rights Reserved.</p>
+    </div> 
+  </footer>
+    <script src="index.js"></script>
+</body>
+</html>
