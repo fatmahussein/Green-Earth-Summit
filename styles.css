@@ -386,11 +386,15 @@ footer {
   display: flex;
 }
 
+.group-photo {
+  padding: 26px 100px;
+}
+
 .grp {
   width: 94%;
   height: 69%;
   margin-left: auto;
-  padding: 37px;
+  padding: 5px 0;
   margin-right: auto;
   display: flex;
 }
@@ -638,17 +642,12 @@ footer {
   .group-photo {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-  }
-
-  .overlay_2 {
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 43px;
+    padding: 35px 120px;
   }
 
   .grp {
     width: 94%;
     height: 90%;
+    padding: 0;
   }
 }
