@@ -147,7 +147,7 @@ header {
 }
 
 .grid-item {
-  background-color: rgba(128, 124, 124, 0.8);
+  background-color: rgba(128, 124, 124, 0.3);
   padding: 10px;
 }
 
@@ -182,18 +182,20 @@ img {
 }
 
 .join-p {
-  padding: 14px;
+  text-align: center;
+  padding-top: 5px;
 }
 
 .speakers {
   display: flex;
   justify-content: center;
+  margin-top: 40px;
 }
 
 .professor {
   display: flex;
   flex-direction: row;
-  padding-top: 20px;
+  margin-top: 40px;
   padding-right: 12px;
   padding-left: 12px;
   padding-bottom: 20px;
@@ -300,7 +302,6 @@ footer {
 }
 
 .copyright {
-  text-align: left;
   height: 24px;
   font-style: normal;
   font-weight: 700;
@@ -326,17 +327,29 @@ footer {
   justify-content: center;
 }
 
+.footer-logo-container {
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+}
+
 .paragabout {
-  border: 2px solid #ffff;
+  border: 2px solid #d3d3d3;
   margin-top: 10px;
+  background-color: #fff;
   font-weight: 100;
-  padding: 13px;
+  padding: 18px;
+  text-align: center;
   font-size: 12px;
-  color: #03040a;
+  color: #b5b4b4;
+}
+
+.info {
+  text-decoration: underline;
 }
 
 .info-sec {
-  background-color: #c6c4bf;
+  background-color: transparent;
   margin-top: 25px;
   justify-content: center;
   display: flex;
@@ -346,10 +359,15 @@ footer {
 .info-p {
   text-align: center;
   color: #616162;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
 .past-summit {
   background-color: #fff;
+  padding-top: 14px;
+  padding-bottom: 50px;
 }
 
 .summit {
@@ -387,7 +405,7 @@ footer {
 }
 
 .group-photo {
-  padding: 26px 100px;
+  padding: 24px;
 }
 
 .grp {
@@ -401,7 +419,7 @@ footer {
 
 .pastphotos {
   background-color: #fff;
-  padding: 10px;
+  padding: 50px 10px;
 }
 
 .pastp {
@@ -464,6 +482,14 @@ footer {
 
 .flex .logo {
   display: none;
+  gap: 10%;
+}
+
+.sub {
+  color: #979696;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
 }
 
 @media screen and (min-width: 768px) {
@@ -479,15 +505,14 @@ footer {
 
   .nav-menu {
     position: inherit;
-    margin-left: 34%;
-    padding-right: 0;
     flex-direction: row;
     backdrop-filter: blur(0);
     padding-top: 20px;
+    padding-right: 0;
     background-color: transparent;
     text-align: center;
     transition: 0.3s;
-    width: 63%;
+    width: 70%;
     gap: 35px;
     color: #344563;
     font-style: normal;
@@ -495,7 +520,6 @@ footer {
     font-size: 27px;
     line-height: 44px;
     display: flex;
-    align-items: center;
   }
 
   .nav-link {
@@ -528,7 +552,7 @@ footer {
     gap: 17px;
     justify-content: flex-end;
     padding: 5px;
-    margin-right: 80px;
+    margin-right: 270px;
   }
 
   .pa {
@@ -549,7 +573,6 @@ footer {
   .GE {
     padding-left: 0;
     height: 25px;
-    margin-left: 30px;
     color: #ec5242;
     border: 3px solid #ec5242;
   }
@@ -562,13 +585,14 @@ footer {
 
   #logo {
     width: 40px;
-    margin-left: 24px;
+    margin-left: 120px;
     margin-top: 11px;
     height: 40px;
   }
 
   .flex {
     display: flex;
+    justify-content: space-between;
   }
 
   .flex .logo {
@@ -594,6 +618,7 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 12px;
+    align-items: center;
   }
 
   .main-program {
@@ -635,6 +660,16 @@ footer {
     padding: 15px 200px;
   }
 
+  #footer-about {
+    background-color: #272a31;
+    height: 220px;
+    justify-content: center;
+  }
+
+  .partners {
+    display: none;
+  }
+
   #br {
     display: none;
   }
@@ -649,5 +684,28 @@ footer {
     width: 94%;
     height: 90%;
     padding: 0;
+  }
+
+  #earth {
+    width: 100px;
+    height: 100px;
+  }
+
+  .copyright {
+    margin-top: 37px;
+    color: #fff;
+  }
+
+  .heading1about {
+    display: none;
+  }
+
+  .heading2 {
+    font-size: 70px;
+  }
+
+  .line {
+    width: 100%;
+    border: 1px solid #d3d3d3;
   }
 }
