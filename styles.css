@@ -547,12 +547,12 @@ footer {
     background-color: #383839;
   }
 
+
   .top {
     display: flex;
     gap: 17px;
-    justify-content: flex-end;
     padding: 5px;
-    margin-right: 270px;
+    margin-left: 56%;
   }
 
   .pa {
@@ -623,6 +623,8 @@ footer {
 
   .main-program {
     padding-bottom: 8%;
+    background: url(assets/pat.jpg);
+    background: #383839;
   }
 
   .heading31 {
