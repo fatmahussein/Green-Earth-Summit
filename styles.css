@@ -95,10 +95,12 @@ header {
 }
 
 .heading2 {
-  margin-top: 5%;
-  font-size: 45px;
-  font-weight: 900;
-  color: #ec5242;
+  background-image: linear-gradient(rgba(255, 38, 0, 0.76), rgba(255, 51, 0, 0.575)), url(assets/download.png);
+  background-repeat: repeat;
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-font-smoothing: antialiased;
 }
 
 .parag {
@@ -528,9 +530,11 @@ footer {
     padding-right: 0;
     background-color: transparent;
     text-align: center;
+    justify-content: end;
     transition: 0.3s;
-    width: 70%;
+    width: 60%;
     gap: 35px;
+    margin-left: 0%;
     color: #344563;
     font-style: normal;
     font-weight: 600;
@@ -568,7 +572,7 @@ footer {
     display: flex;
     gap: 17px;
     padding: 5px;
-    margin-left: 56%;
+    margin-left: 70%;
   }
 
   .pa {
@@ -601,24 +605,23 @@ footer {
 
   #logo {
     width: 40px;
-    margin-left: 120px;
+    margin-left: 40px;
     margin-top: 11px;
     height: 40px;
   }
 
   .flex {
     display: flex;
-    justify-content: space-between;
   }
 
   .flex .logo {
-    display: flex;
-    width: 61px;
+    display: block;
+    margin-left: 20%;
   }
 
   header {
     width: 55%;
-    margin-left: 10%;
+    margin-left: 22%;
   }
 
   #about-header {
@@ -740,9 +743,6 @@ footer {
 
   .heading2 {
     font-size: 70px;
-    background: url(assets/conserve.png) no-repeat;
-    -webkit-background-clip: text;
-    background-clip: text;
   }
 
   .line {
