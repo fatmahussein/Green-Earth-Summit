@@ -13,7 +13,6 @@
 }
 
 body {
-  background: url(assets/header-bg.jpg);
   background-size: 100%;
 }
 
@@ -96,10 +95,10 @@ header {
 }
 
 .heading2 {
-  color: #ec5242;
   margin-top: 5%;
   font-size: 45px;
   font-weight: 900;
+  color: #ec5242;
 }
 
 .parag {
@@ -201,6 +200,33 @@ img {
   padding-bottom: 20px;
 }
 
+.image_wrapper {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay_2 {
+  inset: 0;
+}
+
+.summit-year {
+  color: #fff;
+  font-size: 35px;
+}
+
+.summit-desc {
+  color: #fff;
+  font-size: 15px;
+}
+
 .img-container {
   background: url(assets/peakpx.jpg);
   background-repeat: no-repeat;
@@ -263,6 +289,16 @@ img {
 }
 
 .partners {
+  display: flex;
+  flex-direction: column;
+  background-color: #414246;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  align-items: center;
+  overflow: auto;
+}
+
+.partners-about {
   display: flex;
   flex-direction: column;
   background-color: #414246;
@@ -437,25 +473,6 @@ footer {
   padding-top: 12px;
 }
 
-.image_wrapper {
-  position: relative;
-}
-
-.overlay {
-  position: absolute;
-  background: rgba(237, 81, 81, 0.5);
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  justify-content: center;
-  margin: 37px 54px;
-  flex-direction: column;
-}
-
-.overlay_2 {
-  inset: 0;
-}
-
 .img-title {
   color: #fff;
   font-size: 30px;
@@ -600,7 +617,14 @@ footer {
   }
 
   header {
-    width: 51%;
+    width: 55%;
+    margin-left: 10%;
+  }
+
+  #about-header {
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .grid-item2 {
@@ -663,11 +687,19 @@ footer {
 
   #footer-about {
     background-color: #272a31;
-    height: 220px;
     justify-content: center;
   }
 
-  .partners {
+  #footer-home {
+    background-color: #f0ecec;
+    justify-content: center;
+  }
+
+  br {
+    display: none;
+  }
+
+  .partners-about {
     display: none;
   }
 
@@ -697,12 +729,20 @@ footer {
     color: #fff;
   }
 
+  #copy-home {
+    margin-top: 37px;
+    color: #03040a;
+  }
+
   .heading1about {
     display: none;
   }
 
   .heading2 {
     font-size: 70px;
+    background: url(assets/conserve.png) no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
   }
 
   .line {

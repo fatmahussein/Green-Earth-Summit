@@ -60,7 +60,7 @@
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-### <p>Click <a href="">here</a> for the live demo</p>
+### <p>Click <a href="https://fatmahussein.github.io/Green-Earth-Summit/">here</a> for the live demo</p>
 
 <!-- GETTING STARTED -->
 
